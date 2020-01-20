@@ -22,8 +22,10 @@ This is just a sample project that to pratice using Promises as well as the MySQ
 1. Clone the Repository
 
 2. Install npm dependencies by navigating to the `/TypingSpeedGame` main directory and running the npm command 
-` $ cd /TypingSpeedGame`
-`$ npm install`
+```
+$ cd /TypingSpeedGame
+$ npm install
+```
 
 3. Run the npm start command to serve the site locally on `http://localhost:3000`
 
