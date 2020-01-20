@@ -42,7 +42,8 @@ Last_Name VARCHAR(20),
 Email VARCHAR(50), 
 High_Score TIME, 
 PRIMARY_KEY(ID)
-);```
+);
+```
 
 4. Navigate to `/server/functions/dbCreds.js` and enter the SQL server credentials there 
 
