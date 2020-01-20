@@ -11,7 +11,7 @@ This is just a sample project that to pratice using Promises as well as the MySQ
 * `/public` stores all the static files 
 * `/server` server files that routes and renders pug files 
 
-##SetUp 
+## SetUp 
 <br /> 
 
 ### Pre-requisites
