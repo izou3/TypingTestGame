@@ -8,6 +8,8 @@ This is a simple Typing Test Game built on NodeJS where users test their time to
 This is just a sample project that to pratice using Promises as well as the MySQL module. Further improvements could be to use JWT tokens for authentication so users can have individual accounts to track scores as well as separating the front-end and improving the UI. 
 
 ### Repository Contents
-* '/public' stores all the static files 
-* '/server' server files that routes and renders pug files 
+* `/public` stores all the static files 
+* `/server` server files that routes and renders pug files 
+
+
 
