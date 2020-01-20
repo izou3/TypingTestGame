@@ -1,0 +1,18 @@
+extends layouts/index.pug
+block content
+  .instructions
+    p
+      | This is a type testing game. The time will start once you begin to press the start button. If your input doesn&apos;t match the required text, the textbox will turn red. The timer will stop once you have correctly typed the required text into the text box.
+  .textContainer
+    .requiredText
+      p
+        | Hello this is Ivan from the place called the place where one goes to die by the fire
+    .textbox
+      .counter.hidden 3
+      textarea(placeholder='Enter text once timer says Go!' disabled='')
+      .operations
+        .timer
+          a(text='') 00:00:00
+          p 0
+        button.start(type='button') Start
+  

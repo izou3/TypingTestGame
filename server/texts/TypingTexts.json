@@ -1,0 +1,18 @@
+{
+    "texts": [{
+      "ID" : "1", 
+      "title" : "English Paper",
+      "shortTitle" : "english_paper",
+      "textToType" : "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs."
+    },{
+      "ID" : "2",
+      "title": "Binary Search",
+      "shortTitle" : "binary_search",
+      "textToType": "public T binarySearch(T arr[], int begin, int end, T element) { int mid = (begin + end)/2; if(arr[mid].compareTo(element) > 1 {binarySearch(arr, mid + 1, end, element); } else if (arr[mid].compareTo(element) < 1) {binarySearch(arr, begin, mid -1, element); } else {return mid; }"
+    },{
+      "ID" : "3",
+      "title": "Legal Talk",
+      "shortTitle" : "legal_talk",
+      "textToType": "Federal tax audit rules allow the IRS (Internal Revenue Service) to treat partnerships as taxable entities and audit at a partnership level instead of conducting individual audits of the partners. This means that depending on the size and structure of the partnership, it is possible for the IRS to audit the partnership as a whole, rather than auditing each partner individually."
+    }]
+  }

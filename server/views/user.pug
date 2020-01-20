@@ -1,0 +1,20 @@
+extends layouts/index.pug
+block content
+  table
+    thead
+      tr
+        th(scope='col') ID
+        th(scope='col') First Name
+        th(scope='col') Last Name
+        th(scope='col') Email
+        th(scope='col') High Score
+    tbody
+      each user in data
+        tr
+          td(data-label='ID')=user.ID
+          td(data-label='First Name')=user.First_Name
+          td(data-label='Last Name')=user.Last_Name
+          td(data-label='Email')=user.Email
+          td(data-label="High Score")=user.High_Score
+
+

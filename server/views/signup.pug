@@ -1,0 +1,21 @@
+extends layouts/index.pug
+block content 
+  if error
+    .alert
+      ul 
+       li="Please Make Sure to Fill in All Fields Correctly"
+  form(action='/signup' method='post')
+    p
+      label(for='First') First Name
+      input#username(name='first' type='text' placeholder='First name' value=first)
+    p
+      label(for='Last') Last Name
+      input#username(name='last' type='text' placeholder='Last name' value=last)
+    p
+      label(for='Email') Email
+      input#password(name='email' type='email' placeholder="Email" value=email)
+    p
+      label(for='High_Score') High Score
+      input#confirm_password(name='time' type='text' placeholder="HONEST High Score in HH:MM:SS" value=time)
+    p
+      input#submit(type='submit' value='SUBMIT')

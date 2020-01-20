@@ -1,0 +1,10 @@
+doctype html
+head
+  title=`Error ${status}`
+  link(rel='stylesheet' href='/css/error.css')
+#main
+  .fof
+    h1=status
+    h3=message
+    if(error)
+        pre=error.stack
