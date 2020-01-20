@@ -11,5 +11,20 @@ This is just a sample project that to pratice using Promises as well as the MySQ
 * `/public` stores all the static files 
 * `/server` server files that routes and renders pug files 
 
+##SetUp 
+<br /> 
+
+### Pre-requisites
+* Node.js
+* MySQL Server (8.0) 
+
+### Installation
+1. Clone the Repository
+> $ git clone https://github.com/alexa/skill-sample-gamebook/
+2. Install npm dependencies by navigating to the `/TypingSpeedGame` main directory and running the npm command `npm install` 
+> $ cd /TypingSpeedGame
+> $ npm install
+
+
 
 
