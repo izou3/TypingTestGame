@@ -34,15 +34,15 @@ This is just a sample project that to pratice using Promises as well as the MySQ
 `CREATE DATABASE TypingGame`
 
 3. Execute the following commands to create the table to be rendered on the app
-> USE TypingGame 
-> CREATE TABLE users(
-> ID INT NOT NULL AUTO_INCREMENT,
-> First_Name VARCHAR(20), 
-> Last_Name VARCHAR(20), 
-> Email VARCHAR(50), 
-> High_Score TIME, 
-> PRIMARY_KEY(ID)
-> );
+```USE TypingGame 
+CREATE TABLE users(
+ID INT NOT NULL AUTO_INCREMENT,
+First_Name VARCHAR(20), 
+Last_Name VARCHAR(20), 
+Email VARCHAR(50), 
+High_Score TIME, 
+PRIMARY_KEY(ID)
+);```
 
 4. Navigate to `/server/functions/dbCreds.js` and enter the SQL server credentials there 
 
