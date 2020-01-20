@@ -31,7 +31,8 @@ This is just a sample project that to pratice using Promises as well as the MySQ
 1. Will need to setup a MySQL server or use an existing one 
 
 2. Create a database called TypingGame 
-`CREATE DATABASE TypingGame`
+```CREATE DATABASE TypingGame
+```
 
 3. Execute the following commands to create the table to be rendered on the app
 ```USE TypingGame 
