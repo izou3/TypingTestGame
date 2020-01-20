@@ -16,7 +16,6 @@ This is just a sample project that to pratice using Promises as well as the MySQ
 ### Pre-requisites
 * Node.js
 * MySQL Server (8.0) 
-
 ### Installation
 1. Clone the Repository
 
