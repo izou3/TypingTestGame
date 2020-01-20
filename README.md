@@ -12,10 +12,11 @@ This is just a sample project that to pratice using Promises as well as the MySQ
 * `/server` server files that routes and renders pug files 
 
 ## SetUp 
-<br /> 
+
 ### Pre-requisites
 * Node.js
 * MySQL Server (8.0) 
+
 ### Installation
 1. Clone the Repository
 
